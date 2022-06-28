@@ -1,0 +1,112 @@
+.payment-details {
+    margin-top: 1vh;
+    padding-left: 1em;
+    padding-right: 1em;
+    border-color: dimgray;
+    width: 80%;
+    min-width: 80%;
+    height: auto;
+    min-height: 100vh;
+}
+
+#details {
+    margin-top: 4vh;
+    margin-bottom: 4vh;
+    background-color: aliceblue;
+    padding: 1vh;
+    padding-bottom: 2vh;
+    border-radius: 1em;
+    color: rgb(27, 52, 123);
+    width: 95%;
+    min-width: 50%;
+}
+
+#header {
+    padding-bottom: 8vh;
+    padding-top: 0.75em;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.row-Header {
+    flex: 1;
+    margin-left: 3vh;
+}
+
+.detsDisplay {
+    flex: 1;
+    text-align: right;
+    padding-right: 3vh;
+}
+
+.btns1 {
+    margin-bottom: 3vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+#btn1 {
+    flex: 1;
+    margin-right: 10%;
+    max-width: 8rem;
+}
+
+#btn2 {
+    flex: 1;
+    margin-left: 10%;
+    margin-right: 7%;
+    max-width: 8rem;
+}
+
+#l1 {
+    display: none;
+    padding: 1%;
+}
+
+.fif {
+    display: inline;
+}
+
+.PLogo {
+    display: none;
+}
+
+@media print {
+    body {
+        visibility: hidden;
+    }
+    .PLogo {
+        display: inline-block;
+        visibility: visible;
+    }
+    #details {
+        visibility: visible;
+    }
+    #l1 {
+        display: inline-block;
+    }
+    .PLogo {
+        font-size: 30px !important;
+        font-weight: bold;
+        position: absolute;
+        left: 20px;
+        margin: 0;
+        padding-bottom: 15px;
+        color: darkblue;
+    }
+    #details {
+        position: absolute;
+        left: 20px;
+        top: 50px;
+        padding: 0;
+        border: solid #000 !important;
+        border-width: 1px 1px 1px 1px !important;
+    }
+    @page {
+        size: a4;
+        margin: 0mm;
+    }
+}

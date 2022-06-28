@@ -1,0 +1,22 @@
+.datePicker {
+    height: 4vh;
+    width: 17vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    margin-left: 2vh;
+    border-radius: 1vh;
+    border-color: rgb(205, 201, 201);
+}
+.endDpicker {
+    display: flex;
+    justify-content: space-between;
+}
+.endDheading {
+    flex: 1;
+}
+#endDvalue {
+    flex: 1;
+}
+#startDvalue {
+    flex: 1;
+}

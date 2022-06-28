@@ -1,0 +1,60 @@
+.transactionTable {
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 5px;
+    margin-right: 11px;
+    background-color: aliceblue;
+    border-radius: 1rem;
+    margin-bottom: 15px;
+}
+
+#viewdets {
+    text-decoration: none;
+}
+
+.transactions {
+    font-weight: 500;
+}
+
+.errorMSG {
+    color: crimson;
+}
+
+#demo-simple-select-standard {
+    margin-left: 1em;
+    padding-left: 1em;
+}
+
+#demo-simple-select-standard-label1 {
+    margin-left: 1em;
+}
+
+.css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+    margin: -7px;
+    width: 23vh;
+    min-width: 17vh;
+}
+
+#recNo {
+    margin-left: 2%;
+    margin-top: 25px;
+}
+
+.active {
+    background-color: yellow;
+}
+
+.btns {
+    justify-content: center;
+    margin-left: 0;
+    display: flex;
+    align-items: stretch;
+}
+
+.btall :active {
+    background-color: yellow;
+}
+
+.active {
+    background-color: black;
+}

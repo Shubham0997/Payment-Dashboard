@@ -1,0 +1,49 @@
+.topbarNav {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.topbarWrapper {
+    height: 100%;
+    padding: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    margin-left: 3vh;
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(87, 87, 216);
+    cursor: pointer;
+}
+
+#warning {
+    margin-top: 20vh;
+    margin-left: 35vh;
+    margin-bottom: 20.5vh;
+    background-color: aliceblue;
+    padding: 7vh;
+    padding-bottom: 1vh;
+    border-radius: 1em;
+    color: rgb(27, 52, 123);
+    width: 73%;
+    min-width: 50%;
+    height: 50vh;
+    text-align: center;
+    font-size: medium;
+}
+
+#warningHeader {
+    color: crimson;
+    padding-bottom: 7vh;
+}
+
+.errorLines {
+    margin: 3vw;
+}

@@ -1,0 +1,15 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.homepage {
+    margin-top: 5vh;
+    margin-left: 3vh;
+    flex: 5;
+    padding-left: 1em;
+    border-color: dimgray;
+}

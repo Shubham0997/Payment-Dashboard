@@ -1,0 +1,64 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.sidebar {
+    position: sticky;
+    flex: 1;
+    background-color: aliceblue;
+    top: 50px;
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    height: 93vh;
+    min-width: 250px;
+}
+
+.sidebarMenu {
+    font-size: 13px;
+    position: sticky;
+}
+
+.dash-ele {
+    display: flex;
+    position: sticky;
+    align-items: center;
+    padding: 0.5vh;
+    color: rgb(87, 87, 194);
+    font-size: large;
+    border-radius: 1em;
+    text-decoration: none;
+}
+
+.dashboard-item {
+    padding-top: 5mm;
+    padding-left: 0vh;
+    margin-bottom: 5mm;
+    color: rgb(87, 87, 194);
+    font-size: large;
+    text-decoration: none;
+    position: sticky;
+}
+
+#item-one {
+    top: 0;
+}
+
+#item-two {
+    top: 2em;
+}
+
+#sticks {
+    position: sticky;
+    bottom: 0;
+}
+
+.dashboard-item:hover {
+    background-color: rgb(186, 186, 241);
+    border-radius: 0.25em;
+}
+
+.dashboard-item:active {
+    background-color: rgb(186, 186, 241);
+    border-radius: 0.25em;
+}

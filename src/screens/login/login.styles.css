@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    /* background-image: url(https://wildcat.solutions/wp-content/uploads/2019/04/wildcat-dark-blue-bg-1920x900.jpg);
+    background-image: 'login-background.jpg';*/
+    background-image: linear-gradient(to right, rgb(129, 170, 230), rgb(42, 63, 139));
+    background-size: cover;
+    height: 100%;
+    min-height: auto;
+}
+
+#main-container-loginpage {
+    margin: 0;
+    position: relative;
+    top: 50%;
+}
+
+#loginBox {
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    min-height: 370px;
+}
+
+#companyLogo {
+    margin-bottom: 20px;
+    color: rgb(77, 77, 196);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.errorMSG {
+    color: crimson;
+}

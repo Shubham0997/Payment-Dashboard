@@ -1,0 +1,44 @@
+#timeout {
+    margin-top: 20vh;
+    margin-left: 30%;
+    margin-bottom: 20.5vh;
+    background-color: aliceblue;
+    padding: 5vh;
+    padding-bottom: 1vh;
+    border-radius: 1em;
+    color: rgb(27, 52, 123);
+    width: 33%;
+    min-width: 40%;
+    height: 43vh;
+    text-align: center;
+    font-size: larger;
+}
+#warningtimeHeader {
+    color: crimson;
+    padding-bottom: 7vh;
+}
+#warningTimeDescription {
+    padding-bottom: 5vh;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: left;
+}
+.btns {
+    display: flex;
+    justify-items: space-evenly;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 0;
+}
+#btn1 {
+    flex: 1;
+    width: 20%;
+    margin-right: 10%;
+    border-radius: 1em;
+}
+#btn2 {
+    flex: 1;
+    width: 20%;
+    margin-left: 10%;
+    border-radius: 1em;
+}
