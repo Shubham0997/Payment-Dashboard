@@ -17,7 +17,7 @@ let totalPages = 0; //total number of pages
 let prevPage = 0;
 var isDateDefault;
 
-
+ // new comment
 // dashboard page which provides the functionality to display the filter form and based upon filters fetch the data from the database using the API and display them on the table
 const Dashboard = () => {
 
