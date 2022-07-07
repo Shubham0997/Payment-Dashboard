@@ -43,7 +43,7 @@ const Login = () => {
 
     //checking credentials
     axios
-      .post("http://localhost:3300/login/", {
+      .post("http://15.206.80.147/login/", {
         username,
         password,
       })
@@ -65,11 +65,13 @@ const Login = () => {
           sessionStorage.setItem("refreshToken", response.data.refreshtoken);
           sessionStorage.setItem("userType", response.data.userType);
           sessionStorage.setItem("userId", response.data.userId);
-          if(response.data.userType === "admin" || response.data.userType === "biller"){
-          navigate("/dashboard");
-          }
-          else {
-          navigate("/home");
+          if (
+            response.data.userType === "admin" ||
+            response.data.userType === "biller"
+          ) {
+            navigate("/dashboard");
+          } else {
+            navigate("/home");
           }
         }
       });
